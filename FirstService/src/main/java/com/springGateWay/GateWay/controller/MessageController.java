@@ -20,6 +20,7 @@ public class MessageController {
 
 //        LOGGER.info("IN First Server :: getMessage"+id);
         System.out.println("In First Server :: "+id);
+        System.out.println("hello Jenkins");
         return "This is message of First-microservice";
 
     }
